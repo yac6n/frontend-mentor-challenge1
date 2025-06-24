@@ -12,6 +12,8 @@
     --spacing-xl: 3rem;
     --container-padding: 8%;
     --card-padding: 0.9rem;
+    --card-text-padding :0.5rem;
+    --p-fond-size: 0.9rem;
 }
 html,
 body {
