@@ -14,6 +14,7 @@
     --card-padding: 0.9rem;
     --card-text-padding :0.5rem;
     --p-fond-size: 0.9rem;
+    --h1-fond-size: 1.3rem;
 }
 html,
 body {
@@ -47,7 +48,7 @@ body {
 }
 
 .qr-card-text {
-    padding: 0 0.5rem;
+    padding: 0 var(--card-text-padding);
     text-align: center;
 
 }
@@ -55,7 +56,7 @@ body {
 .qr-card-text p {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: var(--p-fond-size);
     color: var(--Slate500);
     text-align: center;
 
@@ -66,7 +67,7 @@ h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     color: var(--Slate900);
-    font-size: 1.3rem;
+    font-size: var(--h1-fond-size);
 
 }
 
