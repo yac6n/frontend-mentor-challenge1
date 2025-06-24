@@ -25,7 +25,7 @@ this is a frontend mentor challenge the first one and it's mainly based on html 
 ### Links
 
 - Solution URL: [on my GitHub](https://github.com/yac6n/challenge1.github.io)
-- Live Site URL: [live site on GitHub Pages ](frontend-mentor-challenge1-three.vercel.app)
+- Live Site URL: [live site on Vercel ](https://frontend-mentor-challenge1-three.vercel.app/)
 
 ## My process
 
