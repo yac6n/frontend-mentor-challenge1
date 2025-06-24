@@ -10,12 +10,13 @@ html,
 body {
     max-width: 90rem;
     min-width: 23.4rem;
+    font-size: 15px;
 }
 
 .container {
     background-color: var(--Slate300);
     text-align: center;
-    margin: clamp(0.5rem, 10vw,2rem) max(0.5rem, 5vw,2rem);
+    margin: clamp(0.5rem, 10vh,2rem) max(0.5rem, 5vh,2rem);
     padding: 8%;
     display: grid;
     place-items: center;
