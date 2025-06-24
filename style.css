@@ -10,7 +10,8 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    --card-padding: 8%;
+    --container-padding: 8%;
+    --card-padding: 0.9rem;
 }
 html,
 body {
@@ -21,8 +22,8 @@ body {
 .container {
     background-color: var(--Slate300);
     text-align: center;
-    margin: clamp(var(--spacing-xs), 10vh,var(--spacing-lg)) clamp(var(--spacing-xs), 5vh,var(--spacing-lg));
-    padding: var(--card-padding);
+    margin: max(var(--spacing-xs), 10vw) max(var(--spacing-xs), 5vw);
+    padding: var(--container-padding);
     display: grid;
     place-items: center;
     height: auto;
@@ -30,7 +31,7 @@ body {
 }
 
 .qr-code-card {
-    padding: 0.9rem;
+    padding: var(--card-padding);
     background-color: var(--White);
     border-radius: 20px;
 
