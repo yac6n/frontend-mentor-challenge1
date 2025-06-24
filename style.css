@@ -10,6 +10,7 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
+    --card-padding: 8%;
 }
 html,
 body {
@@ -21,7 +22,7 @@ body {
     background-color: var(--Slate300);
     text-align: center;
     margin: clamp(var(--spacing-xs), 10vh,var(--spacing-lg)) clamp(var(--spacing-xs), 5vh,var(--spacing-lg));
-    padding: 8%;
+    padding: var(--card-padding);
     display: grid;
     place-items: center;
     height: auto;
