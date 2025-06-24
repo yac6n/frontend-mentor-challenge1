@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-html, body {
+
+html,
+body {
     max-width: 1440px;
     min-width: 375px;
 }
+
 .container {
     background-color: hsl(212, 45%, 89%);
     text-align: center;
-    margin: 15% 5%;
+    margin: 10% 5%;
     padding: 8%;
     display: grid;
     place-items: center;
     height: auto;
-    box-shadow:  1px 15px 20px rgba(0, 0, 0, 0.1);
-
-    
-    
+    box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .qr-code-card {
-    padding: 1%;
+    padding: 0.9rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     width: 25%;
-    
+
 }
 
 .qr-code-card img {
@@ -32,22 +32,32 @@ html, body {
     border-radius: 15px;
 }
 
-.qr-code-card p {
-    font-family:  'Outfit', sans-serif;
+.qr-card-text {
+    padding: 0 0.5rem 0 0.5rem;
+    text-align: center;
+
+}
+
+.qr-card-text p {
+    font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: hsl(216, 15%, 48%);
+    text-align: center;
+
 }
 
-.qr-code-card h1, h2, h3, h4, h5 {
-    font-family:  'Outfit', sans-serif;
+.qr-card-text,
+h3 {
+    font-family: 'Outfit', sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+
 }
 
 
 @media (max-width: 768px) {
- .qr-code-card {
-    width: 100%; 
-}
+    .qr-code-card {
+        width: 100%;
+    }
 }
