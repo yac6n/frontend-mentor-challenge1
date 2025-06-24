@@ -4,7 +4,7 @@
     --Slate500:  hsl(216, 15%, 48%);
     --Slate900:  hsl(218, 44%, 22%);
     --White:     hsl(0, 0%, 100%);
-    --White:     rgba(0, 0, 0, 0.1);
+    --box-shadow:rgba(0, 0, 0, 0.1);
 }
 html,
 body {
@@ -15,12 +15,12 @@ body {
 .container {
     background-color: var(--Slate300);
     text-align: center;
-    margin: max(2rem, 10vw) max(0.5rem, 5vw);
+    margin: clamp(0.5rem, 10vw,2rem) max(0.5rem, 5vw,2rem);
     padding: 8%;
     display: grid;
     place-items: center;
     height: auto;
-    box-shadow: 1px 15px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 15px 20px var(--box-shadow);
 }
 
 .qr-code-card {
